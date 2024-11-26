@@ -1,0 +1,255 @@
+.container{
+    width: 30rem;
+    height:47rem;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: #4f285E;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width:100%;
+    height:30%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    width:90%;
+    height:25%;
+}
+.upper{
+    width:90%;
+    height:50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower {
+    width: 100%;
+    height: 70%;
+    border-radius: 30px 30px 15px 15px;
+    background-color: #f3f1ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backButton{
+    width:60px;
+    height:40px;
+    border-radius: 30px;
+    margin-left: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:transparent;
+    border: none;
+}
+.first{
+    font-family: Poppins;
+    padding:5px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+.lowerTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerButton{
+    width:90%;
+    height:10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fieldphone{
+    width:90%;
+    height:30%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #e5e1de;
+}
+.nextbutton{
+    width:20rem;
+    height:100%;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #4f285E;
+    color: #fff;
+    cursor: pointer;
+}
+.field label {
+    font-size: 18px;
+    color: #4f285e;
+}
+.nameinput{
+    font-size: 20px;
+}
+.dob-age{
+    font-size: 18px;
+}
+.box1{
+    width:90%;
+    height:30%;
+    margin-bottom: 10px;
+}
+.gender{
+    font-size: 18px;
+}
+.box2{
+    width:90%;
+    height:20%;
+    margin-top: 7px;
+}
+.radiomenu{
+    margin-top: 3px;
+    width:100%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box3{
+    width:90%;
+    height:30%;
+    margin-top: 20px;
+}
+.dobval{
+    width:100%;
+    height:70%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dobinput{
+    border-radius: 20px;
+    background-color: #e5e1de;
+    width:70%;
+    height:70%;
+}
+.Ageinput{
+    width:15%;
+    height:70%;
+    background-color: #e5e1de;
+    margin-right: 5px;
+}
+.name{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.fielddetails {
+    width: 95%;
+    height: 60%;
+    margin: 4px;
+    border-radius: 20px;
+    background-color: #e5e1de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.fielddetails {
+    width: 95%;
+    height: 60%;
+    margin: 4px;
+    border-radius: 20px;
+    background-color: #e5e1de;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+.fielddetails input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #4f285e;
+    background: transparent;
+}
+.dobinput {
+    width: 45%;
+    height: 70%;
+    background-color: #e5e1de;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+.Ageinput{
+    width: 20%;
+    height: 70%;
+    background-color: #e5e1de;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+.dobinput input, .Ageinput input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #4f285e;
+    background: transparent;
+}
+.radiomenu label {
+    font-size: 18px;
+    color: #4f285e;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.radiomenu input[type="radio"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 2px solid #4f285e;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.radiomenu input[type="radio"]:checked {
+    background-color: #4f285e;
+}
+.radiomenu input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}

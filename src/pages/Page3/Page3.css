@@ -1,0 +1,145 @@
+.container{
+    width: 30rem;
+    height:47rem;
+    border:1px solid black;
+    border-radius: 15px;
+   background-color: #4f285E;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width:100%;
+    height:30%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    width:90%;
+    height:25%;
+}
+
+.upper{
+    width:90%;
+    height:50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower {
+    width: 100%;
+    height: 70%;
+    border-radius: 30px 30px 15px 15px;
+    background-color: #f3f1ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backButton{
+    width:60px;
+    height:40px;
+    border-radius: 30px;
+    margin-left: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:transparent;
+    border: none;
+}
+
+.first{
+    font-family: Poppins;
+    padding:5px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.lowerTable{
+    width:90%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerButton{
+    width:90%;
+    height:10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextbutton{
+    width:20rem;
+    height:100%;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #4f285E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.field1 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #e5e1de;
+    padding: 10px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: #4f285e;
+    height:15rem;
+}
+
+.field1 label {
+    font-size: 18px;
+    color: #4f285e;
+}
+
+.field1 input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #4f285E;
+    border-radius: 50%;
+    position: relative;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+
+.field1 input[type="radio"]:checked {
+    background-color: #4f285E;
+    border: 2px solid #4f285E;
+}
+
+.field1 input[type="radio"]:checked::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #4f285E;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
